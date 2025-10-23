@@ -3,6 +3,7 @@ import "./Home.css";
 import Nav from "../components/nav.jsx";
 import Confirmbutton from "../components/confirmbutton.jsx";
 import Videoicon from "../components/Videoicon.jsx";
+import Titleseeall from "../components/Titleseeall.jsx";
 
 const Home = () => {
   return (
@@ -16,6 +17,9 @@ const Home = () => {
             <Videoicon />
             <Videoicon />
             <Videoicon />
+          </div>
+          <div>
+            <Titleseeall />
           </div>
         </div>
       </div>
