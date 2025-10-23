@@ -5,6 +5,8 @@ import Confirmbutton from "../components/confirmbutton.jsx";
 import Videoicon from "../components/Videoicon.jsx";
 import Titleseeall from "../components/Titleseeall.jsx";
 import Uxside from "../components/Uxside.jsx";
+import Story from "../components/Story.jsx";
+import Createpost from "../components/Createpost.jsx";
 
 const Home = () => {
   return (
@@ -19,7 +21,7 @@ const Home = () => {
             <Videoicon />
             <Videoicon />
           </div>
-          <div>
+          <div className="uxside-components">
             <Titleseeall />
             <Uxside />
             <Uxside />
@@ -28,6 +30,15 @@ const Home = () => {
             <Uxside />
             <Uxside />
           </div>
+        </div>
+        <div className="center">
+          <div className="story-container">
+            <Story />
+            <Story />
+            <Story />
+            <Story />
+          </div>
+          <Createpost />
         </div>
       </div>
     </>
