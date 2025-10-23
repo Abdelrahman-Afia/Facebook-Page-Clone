@@ -1,0 +1,23 @@
+.nav-bar {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px;
+  gap: 300px;
+  justify-content: center;
+}
+
+.facebook-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.menu-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.home-icons {
+  display: flex;
+  gap: 60px;
+}
