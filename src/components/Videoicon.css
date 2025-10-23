@@ -1,0 +1,20 @@
+.video-icon {
+  width: 20px;
+  height: 15px;
+}
+
+.text {
+  color: #000;
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.video-icon-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}

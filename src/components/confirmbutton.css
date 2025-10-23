@@ -1,0 +1,13 @@
+.confirm-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #1877f2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 150px;
+}
