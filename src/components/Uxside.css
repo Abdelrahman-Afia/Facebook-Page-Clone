@@ -1,0 +1,20 @@
+.Ux-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.uxgroup-img {
+  width: 50px;
+  height: 50px;
+}
+
+.text {
+  color: #000;
+  font-family: Arial;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}

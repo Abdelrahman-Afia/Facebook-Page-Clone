@@ -4,6 +4,7 @@ import Nav from "../components/nav.jsx";
 import Confirmbutton from "../components/confirmbutton.jsx";
 import Videoicon from "../components/Videoicon.jsx";
 import Titleseeall from "../components/Titleseeall.jsx";
+import Uxside from "../components/Uxside.jsx";
 
 const Home = () => {
   return (
@@ -20,6 +21,12 @@ const Home = () => {
           </div>
           <div>
             <Titleseeall />
+            <Uxside />
+            <Uxside />
+            <Uxside />
+            <Uxside />
+            <Uxside />
+            <Uxside />
           </div>
         </div>
       </div>
