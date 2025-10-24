@@ -7,6 +7,7 @@ import Titleseeall from "../components/Titleseeall.jsx";
 import Uxside from "../components/Uxside.jsx";
 import Story from "../components/Story.jsx";
 import Createpost from "../components/Createpost.jsx";
+import Post from "../components/Post.jsx";
 
 const Home = () => {
   return (
@@ -39,6 +40,9 @@ const Home = () => {
             <Story />
           </div>
           <Createpost />
+          <Post />
+          <Post />
+          <Post />
         </div>
       </div>
     </>
