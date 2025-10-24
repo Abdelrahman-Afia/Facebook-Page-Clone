@@ -1,0 +1,52 @@
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.twitch-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 10px;
+  gap: 10px;
+}
+
+.twitch-img {
+  width: 50px;
+  height: 50px;
+}
+
+.twitch-text {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.twitch-title {
+  color: #000;
+  font-family: Arial;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.twich-detail {
+  color: #000;
+  font-family: Arial;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.twitch-seemore {
+  color: #1877f2;
+  font-family: Arial;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

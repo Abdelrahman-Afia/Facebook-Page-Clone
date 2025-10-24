@@ -9,6 +9,7 @@ import Story from "../components/Story.jsx";
 import Createpost from "../components/Createpost.jsx";
 import Post from "../components/Post.jsx";
 import Friendrequest from "../components/Friendrequest.jsx";
+import Twitch from "../components/Twitch.jsx";
 
 const Home = () => {
   return (
@@ -49,6 +50,13 @@ const Home = () => {
           <Titleseeall />
           <Friendrequest />
           <Friendrequest />
+          <Titleseeall />
+          <Twitch />
+          <Twitch />
+          <Twitch />
+          <Twitch />
+          <Twitch />
+          <Twitch />
         </div>
       </div>
     </>
