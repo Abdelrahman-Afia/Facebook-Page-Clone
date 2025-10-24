@@ -1,0 +1,100 @@
+.Post-container {
+  height: 128px;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 5px;
+  padding: 10px;
+  gap: 10px;
+}
+
+.Post-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.Post-profile {
+  width: 40px;
+  height: 40px;
+}
+
+.Type {
+  color: #65676b;
+  font-family: Arial;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 617px;
+  height: 40px;
+  border-radius: 31px;
+  background: #f0f2f5;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+}
+
+.Line {
+  width: 100%;
+  height: 1px;
+  background-color: #ddd;
+  margin-top: 10px;
+}
+
+.Post-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+}
+
+.Live {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  flex-direction: row;
+}
+
+.Live-icon {
+  width: 30px;
+  height: 20px;
+}
+
+.text {
+  color: #65676b;
+  font-family: Arial;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.Photo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  flex-direction: row;
+}
+
+.Photo-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.Smile {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  flex-direction: row;
+}
+
+.Smile-icon {
+  width: 24px;
+  height: 24px;
+}

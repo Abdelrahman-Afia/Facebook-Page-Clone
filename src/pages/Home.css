@@ -43,6 +43,9 @@ body {
 
 .center {
   width: 50%;
+  gap: 50px;
+  display: flex;
+  flex-direction: column;
 }
 
 .story-container {
