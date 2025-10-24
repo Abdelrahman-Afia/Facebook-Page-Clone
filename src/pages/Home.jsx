@@ -8,6 +8,7 @@ import Uxside from "../components/Uxside.jsx";
 import Story from "../components/Story.jsx";
 import Createpost from "../components/Createpost.jsx";
 import Post from "../components/Post.jsx";
+import Friendrequest from "../components/Friendrequest.jsx";
 
 const Home = () => {
   return (
@@ -43,6 +44,11 @@ const Home = () => {
           <Post />
           <Post />
           <Post />
+        </div>
+        <div className="right-sidebar">
+          <Titleseeall />
+          <Friendrequest />
+          <Friendrequest />
         </div>
       </div>
     </>
